@@ -5,7 +5,7 @@ from langchain_core.messages import HumanMessage, AIMessage
 
 # --- 1. 配置 AI 模型 ---
 # 设置环境变量以对接通义千问 API
-os.environ["OPENAI_API_KEY"] = os.getenv("DASHSCOPE_API_KEY")
+os.environ["OPENAI_API_KEY"] = "sk-ab40d0805e144392a106254d5c8bf540"
 os.environ["OPENAI_BASE_URL"] = "https://dashscope.aliyuncs.com/compatible-mode/v1"
 
 # 初始化模型：使用 qwen-plus
